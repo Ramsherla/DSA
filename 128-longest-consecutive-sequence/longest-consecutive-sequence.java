@@ -3,8 +3,8 @@ class Solution {
         if(nums.length==0){
             return 0;
         }
-        if(nums.length==1)
-            return 1;
+        // if(nums.length==1)
+        //     return 1;
         TreeSet<Integer> set=new TreeSet<>();
         int c=1;
         int prev=0;
