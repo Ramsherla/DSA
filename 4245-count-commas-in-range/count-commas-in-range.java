@@ -3,8 +3,8 @@ class Solution {
         if(n<999){
             return 0;
         }
-        int x=n-999;
-        return x;
+        // int x=n-999;
+        return n-999;
         
     }
 }
